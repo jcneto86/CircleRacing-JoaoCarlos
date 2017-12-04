@@ -12,6 +12,9 @@
 		525FA92D1FD5E8C5007AF51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525FA92B1FD5E8C5007AF51B /* Main.storyboard */; };
 		525FA92F1FD5E8C5007AF51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525FA92E1FD5E8C5007AF51B /* Assets.xcassets */; };
 		525FA9321FD5E8C5007AF51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525FA9301FD5E8C5007AF51B /* LaunchScreen.storyboard */; };
+		525FA93D1FD5EEDC007AF51B /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 525FA93A1FD5EEDC007AF51B /* car.png */; };
+		525FA93E1FD5EEDC007AF51B /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 525FA93B1FD5EEDC007AF51B /* box.png */; };
+		525FA93F1FD5EEDC007AF51B /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = 525FA93C1FD5EEDC007AF51B /* fond.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		525FA92E1FD5E8C5007AF51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525FA9311FD5E8C5007AF51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525FA9331FD5E8C5007AF51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525FA93A1FD5EEDC007AF51B /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		525FA93B1FD5EEDC007AF51B /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		525FA93C1FD5EEDC007AF51B /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fond.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		525FA9261FD5E8C5007AF51B /* CircleRacing */ = {
 			isa = PBXGroup;
 			children = (
+				525FA9391FD5EE84007AF51B /* img */,
 				525FA9271FD5E8C5007AF51B /* AppDelegate.swift */,
 				525FA9291FD5E8C5007AF51B /* ViewController.swift */,
 				525FA92B1FD5E8C5007AF51B /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				525FA9331FD5E8C5007AF51B /* Info.plist */,
 			);
 			path = CircleRacing;
+			sourceTree = "<group>";
+		};
+		525FA9391FD5EE84007AF51B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				525FA93B1FD5EEDC007AF51B /* box.png */,
+				525FA93A1FD5EEDC007AF51B /* car.png */,
+				525FA93C1FD5EEDC007AF51B /* fond.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525FA93D1FD5EEDC007AF51B /* car.png in Resources */,
 				525FA9321FD5E8C5007AF51B /* LaunchScreen.storyboard in Resources */,
+				525FA93F1FD5EEDC007AF51B /* fond.png in Resources */,
+				525FA93E1FD5EEDC007AF51B /* box.png in Resources */,
 				525FA92F1FD5E8C5007AF51B /* Assets.xcassets in Resources */,
 				525FA92D1FD5E8C5007AF51B /* Main.storyboard in Resources */,
 			);

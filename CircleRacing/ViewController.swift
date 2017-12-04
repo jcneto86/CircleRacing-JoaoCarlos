@@ -9,17 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var timeScore: UILabel!
+    @IBOutlet weak var bestTime: UILabel!
+    @IBOutlet weak var sliderController: UISlider!
+    
+    @IBOutlet weak var car: UIView!
+    @IBOutlet weak var box: UIView!
+    
+    @IBOutlet weak var route: UIView!
+    
+    var styleView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        styleView = route
+        styleView.layer.cornerRadius = 30
+        styleView.layer.borderWidth = 3
+        styleView.layer.borderColor = UIColor.red.cgColor
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    
 }
 
